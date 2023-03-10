@@ -1,0 +1,18 @@
+algorithm for order management:
+
+1)Accept order placement 
+2)Check Order Validation
+3)Find Inventory Check
+4)Order Processing, Order Fulfillment
+5)Order Tracking
+6)Display Order Returns
+7)Display Reporting
+
+algorithm for kitchen management:
+1) Accept Plan your meals
+2)Accept Organize your kitchen
+3)Find Cook in batches
+4)Add Clean as you go
+5)Add Store leftovers properly
+6)Display track of food inventory
+7)Display Maintain kitchen appliances

@@ -1,0 +1,208 @@
+Begin numeric num1,num2,sum,diff,mult,div 
+print("Enter two number num1,num2"\n);
+add = num1+num2
+sub = num1-num2
+mult = num1 * num2
+div=num1/num2
+print("Addition is : add"\n);
+print("substraction is : sub"\n);
+ print("multplication is : mult"\n);
+print("division is : div"\n);
+ end
+
+ 
+
+begin 
+numeric weeknumber
+ print("Enter the weeknumber")
+ input weeknumber
+ if(weeknumber==1)
+ {
+   print(weeknumber,"- Monday");
+ }
+ else if(weeknumber==2)
+ {
+   print(weeknumber,"- Tuesday");
+ }
+ else if(weeknumber==3)
+ {
+   print(weeknumber,"- Wednesday");
+ }
+ else if(weeknumber==4)
+ {
+   print(weeknumber,"- Thursday");
+ }
+ else if(weeknumber==5)
+ {
+   print(weeknumber,"- Friday");
+ }
+ else if(weeknumber==6)
+ {
+   print(weeknum,"- Saturday");
+ }
+ else if(weeknumber==7)
+ {
+   print(weeknumber,"- Sunday");
+ }
+ else
+ {
+   print(weeknum,"-Invalid week number");
+ }
+end
+
+Begin 
+numeric five,two,one,amount
+Print("Enter withdraw amount")
+input amount                    
+if(amount%100==0) {
+if(amount>=500){
+five=amount/500;
+amount=amount%500 or amount=(amount-(five*500))
+                          print("500 rupees notes are ",five);
+                }     
+              if(amount>=200){
+                        two=amount/200
+                            amount=amount%200
+                        print("200 rupees notes are ",two);
+                }
+ 
+               if(amount>=100){
+                        one=amount/100 
+                        print("100 rupees notes are ",one);
+                }
+ 
+     }
+   else {
+           print("please enter multiples of 100 only");
+       }begin
+    numeric five,two,one,amount
+    Print("Enter withdraw amount")
+    input amount                    
+     if(amount%100==0) {
+             if(amount>=500){
+                          five=amount/500;
+                            amount=amount%500 or amount=(amount-(five*500))
+                          print("500 rupees notes are ",five);
+                }     
+              if(amount>=200){
+                        two=amount/200
+                            amount=amount%200
+                        print("200 rupees notes are ",two);
+                }
+ 
+               if(amount>=100){
+                        one=amount/100 
+                        print("100 rupees notes are ",one);
+                }
+ 
+     }
+   else {
+           print("please enter multiples of 100 only");
+       }
+
+
+Begin 
+numeric project score,internal score and external score
+input marks1,
+input marks2,
+input marks3,
+max project score =70
+max externals score=20
+max internal score=10
+total = marks1+marks2+marks3
+print(total)
+if(marks>=90){
+print(A grade)
+}
+elseif(marks>=70)
+{
+ print(b grade)
+}
+elseif(marks>=50){
+print( c grade)
+}
+else(marks>50){
+print(fail)
+}
+sir
+
+Begin
+    Numeric projectScore,internalScore, externalScore,total=0;
+    print("Enter project, external and internal score");
+      input projectScore
+      input externalScore
+      input internalScore
+       if(projectScore>=50 && externalScore>=50 && internalScore>=50) {
+                 total=(70*projectScore)/100+(20*externalScore)/100+(10*internalScore)/100;
+                  if(total>=90) {
+                            print("A grade");
+                   }
+                    else if (total>=70) {
+                                 print("B grade");
+                      }
+                     else{
+                              print("C grade");
+                      }
+        }
+      else {
+                 if(projectScore<50){
+                              print("failed in project and score is ",projectScore);
+                   }
+                 if(externalScore<50){
+                              print("failed in External and score is ",externalScore);
+                   }
+                 if(internaltScore<50){
+                              print("failed in Internal and score is ",internalScore);
+                   }
+             
+               }
+ 
+begin
+numeric basic salary,Hra,Da
+print("enter the basic salary")
+input basic salary
+if(basic salary<=100000)
+{
+hra=67*basic salary/100
+da=78*basic salary/100
+gs=basic+hra+da
+print(gross salary)
+}
+elif(basic salary >200000)
+{
+hra=69*basic salary/100
+da=79*basic salary/100
+gs=hra+da+basic salary
+print(gross salary)
+}
+else(basic salary>200000)
+{
+Hra=75*basic salary/100
+Da=85*basic salary/100
+gross salary=hra+da+basic salary
+print(gross salary)
+}
+end
+
+
+begin
+{
+Numeric units,bill,Gst bill
+print("Enter the units")
+input units
+if(units<=50&&units<100)
+{
+ Gst bill=(18* units*4.20)/100 || (18*units*5.67)/100
+print("The total bill")
+}
+elseif(units>=100)
+{ 
+Gst bill=(18*units*8.90)/100
+   print("the total bill")
+}
+else(units>250)
+{
+Gst bill=(18*units*9.5)/100
+print("the total bill")
+}
+return 0
