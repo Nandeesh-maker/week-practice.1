@@ -1,0 +1,78 @@
+1)write a pseduocode to accept number and check it is even or odd
+
+Begin
+numeric num
+print("Enter the Number")
+input num
+if(num%2==0)
+{
+print("The number is even.")
+}
+else
+( 
+  print("The number is odd.")
+}
+end
+
+2)write a pseduocode to accept  age and check he/she is eligible for voting or not
+
+Begin
+Numeric age
+print("Enter your age")
+input age
+if(age>=18)
+{
+  print("You are eligible to vote!")
+}
+else
+{
+    print("Sorry, you are not eligible to vote.")
+}
+
+
+3)write a pseduocode to accept  3 subjects marks and find total avg marks
+
+Begin
+numeric subject_mark1,subject2_mark = 0,subject3_mark = 0
+total_marks = 0,avg_marks = 0
+input subject_mark1,subject2_mark = 0,subject3_mark = 0
+print("Enter subject 1 marks")
+print("Enter subject 2 marks")
+print("Enter subject 3 marks")
+total_marks = subject1_mark + subject2_mark + subject3_mark
+avg_marks = total_marks / 3
+print("Total Marks: ", total_marks)
+print("Average Marks: ", avg_marks)
+End
+
+4)write a pseudocode to accept employee salary and three shopping bills and find the total shopping amount and % of amount employee is spending on shopping on his/her salary
+
+Begin
+numeric salary,Total_shopping_amount
+input salary
+print("Enter the salary")
+input bill1
+input bill2
+input bill3
+print("Enter the Bill 1")
+print("Enter the Bill 2")
+print("Enter the Bill 3")
+Total_shopping_amount = bill1 + bill2 + bill3
+print("The Total shopping amount is:")
+percentage_spent_on_shopping = (total_shopping_amount / salary) * 100
+print("The Percentage spent on shopping is ")
+End
+
+5)write a pseudocode to accept basic salary and find gross salary gs=basic+hra+da  hra is 56% on basic and dais 78% on basic
+
+Begin
+numeric basic salary,Hra,Da,Gross salary
+input basic salary
+print("Enter the basic salary ")
+Hra = 0.56 * basic_salary
+Da = 0.78 * basic_salary
+Gross_salary = basic_salary + hra + da
+print("Gross_salary is")
+end
+
+
