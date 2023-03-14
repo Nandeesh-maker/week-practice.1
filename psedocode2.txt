@@ -1,0 +1,171 @@
+begin
+numeric start,stop
+input start
+input stop
+while (start<stop){
+print(start)
+start=start+1
+{
+if(start<=stop)
+{
+print(stop)
+stop=stop-1
+}
+end
+
+Begin
+    numeric start,stop
+    print("Enter your start and stop values")
+     input start, stop             //10 100
+ 
+    if(start < stop) {
+              
+              while(start<=stop) {
+                    print(start)
+                       start++
+                 }
+     }
+     else if(start>stop) {
+                   while(start>=stop) {
+                          print(start)
+                              start--
+                      }
+      }
+else  {
+          print("Your start and stop values are same");
+    }
+
+
+1)
+begin
+numeric num,j=1
+print("Enter the num")
+input num
+if(j<=num)
+{
+while(num%i==0)
+print(j)
+j++
+}
+elif(i>=num)
+{
+while(num%j==0)
+print(j)
+j--
+}
+else
+print("given num is not factor")
+end
+
+2)
+
+Begin
+     Numeric num,i=1
+     print("Enter number to print factors") 
+     input num
+     while(i<=num/2)  {                 
+             if(num%i==0) {
+                         print(i)             
+                }
+          i++
+ 
+     }
+3)
+
+Begin
+Numeric num, fact,count=1;
+print("Enter a number")
+Input number
+while(fact<= num)
+{
+if(num % fact==0)
+{
+count=count+1
+}
+fact=fact+1
+}
+if(count<1){
+print("The number is a prime number")
+}
+else{
+print("the number is not a prime")
+}
+End
+
+//Perfect number
+begin
+numeric num,,i=1,sum=0
+input num
+print("Enter number")
+while(i<=num/2){
+    if(num%i==0){
+    sum=sum+i}
+    i++
+    }
+if(sum=num){
+print("Given number is perfect number")
+}
+else{
+Print("Given number is not perfect number")
+}
+end
+
+strong number//
+Begin
+numeric temp,sum
+print("enter the 
+
+
+
+
+
+Begin
+numeric num,k=1,sum=0
+print("Enter the number")
+input num
+while(k<=num/2){
+if(num%k==0){
+sum=sum+k}
+i++
+}
+if(sum=num){
+print("Given number is perfect number")
+}
+else{
+Print("Given number is not perfect number")
+}
+End
+
+begin
+numeric num,r,sum=0,temp
+print("enter the num")
+input input
+temp=num
+while(num>0)
+{
+r=num%10
+sum=sum+(r*r*r)
+num=num/10
+}
+if(temp==sum)
+print("armstrong  number")
+else   
+printf("not armstrong number");   
+end
+
+wap to print 1-10 number
+
+Begin
+numeric i=1,num
+print("enter the number")
+input num
+do{
+    print ("num")
+    i = i + 1
+}
+while (i <= 10);
+end
+
+
+
+
