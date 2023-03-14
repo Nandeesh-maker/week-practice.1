@@ -16,7 +16,7 @@ end
 Begin
     numeric start,stop
     print("Enter your start and stop values")
-     input start, stop             //10 100
+     input start, stop             
  
     if(start < stop) {
               
@@ -110,32 +110,7 @@ Print("Given number is not perfect number")
 }
 end
 
-strong number//
-Begin
-numeric temp,sum
-print("enter the 
-
-
-
-
-
-Begin
-numeric num,k=1,sum=0
-print("Enter the number")
-input num
-while(k<=num/2){
-if(num%k==0){
-sum=sum+k}
-i++
-}
-if(sum=num){
-print("Given number is perfect number")
-}
-else{
-Print("Given number is not perfect number")
-}
-End
-
+armstrong//
 begin
 numeric num,r,sum=0,temp
 print("enter the num")
